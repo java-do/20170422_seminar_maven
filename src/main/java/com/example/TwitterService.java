@@ -41,4 +41,5 @@ public class TwitterService {
 		ZonedDateTime zdt = instant.atZone(ZoneId.systemDefault());
 		return String.format(TL_BROCK_FORMAT, userName, text, zdt.toString());
 	}
+	
 }
