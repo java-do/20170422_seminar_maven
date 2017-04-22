@@ -90,6 +90,22 @@ local.properties
 .recommenders/
 
 
+### https://raw.github.com/github/gitignore/4cefae5d09b590eada9ec28d67034292cc939fbb/Global/JDeveloper.gitignore
+
+# default application storage directory used by the IDE Performance Cache feature
+.data/
+
+# used for ADF styles caching
+temp/
+
+# default output directories
+classes/
+deploy/
+javadoc/
+
+# lock file, a part of Oracle Credential Store Framework
+cwallet.sso.lck
+
 ### https://raw.github.com/github/gitignore/4cefae5d09b590eada9ec28d67034292cc939fbb/Global/JetBrains.gitignore
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
